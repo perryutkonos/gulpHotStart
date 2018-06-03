@@ -1,18 +1,18 @@
 include head.pug
-include header.pug
-include footer.pug
+
     
 block variables
     
 doctype html
 html(lang='ru')
+
     +dev_head(page_title || '', scripts || [])
 
     body
 
-        +header()
+        include header.pug
 
         main
             block content
 
-        +footer()
+        include footer.pug

@@ -3,7 +3,7 @@
 var path = {
    
     build: { //Тут мы укажем куда складывать готовые после сборки файлы
-        html: 'build/html/',
+        html: 'build/',
         js: 'build/js/',
         css: 'build/css/',
         img: 'build/img/',
@@ -34,7 +34,7 @@ var path = {
         fonts: 'src/fonts/**/*.*',
         resources: 'src/resources/**/*.*'
     },
-    clean: '/build/'
+    clean: 'build/'
 };
 
 var gulp = require('gulp'), //сам гулп
