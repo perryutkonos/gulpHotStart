@@ -11,14 +11,11 @@
   "dependencies": {
     "babel-core": "*",
     "babel-preset-env": "*",
-    "bower": "*",
     "del": "*",
     "emitty": "*",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "*",
     "gulp-babel": "*",
-    "gulp-bower": "*",
-    "gulp-bower-files": "*",
     "gulp-clean-css": "*",
     "gulp-concat": "*",
     "gulp-connect": "*",
@@ -27,20 +24,12 @@
     "gulp-imagemin": "*",
     "gulp-plumber": "*",
     "gulp-pug": "^3.3.0",
-    "gulp-pug-lint": "*",
     "gulp-rigger": "*",
-    "gulp-rimraf": "*",
     "gulp-sass": "*",
     "gulp-sourcemaps": "*",
     "gulp-uglify": "*",
     "gulp-util": "*",
-    "gulp-watch": "*",
-    "gulp-webserver": "*",
     "gulp.spritesmith": "*",
-    "main-bower-files": "*",
-    "normalize-path": "*",
-    "uglifyify": "*",
-    "vinyl-source-stream": "*",
-    "watchify": "*"
+    "normalize-path": "*"
   }
 }
